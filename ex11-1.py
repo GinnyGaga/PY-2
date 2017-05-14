@@ -1,0 +1,5 @@
+print("who do you love?" ,end='')
+name=input()
+print("How old is he?",end='')
+age=input()
+print("I Love %s,he is %s years old." % (name,age))
