@@ -1,7 +1,8 @@
 from sys import argv
 
-script,user_name = argv
-prompt = '>'
+script,user_name,birthday = argv
+prompt = ':'
+#prompt = '>'
 
 print ("Hi %s,I'm the %s script." % (user_name,script))
 print ("I'd like to ask you a questions.")
@@ -13,6 +14,9 @@ lives = input(prompt)
 
 print ("What kind of computer do you have?")
 computer=input(prompt)
+
+print ("my birthday?" ,birthday)
+
 
 print ("""
 Alright,so you said %r about liking me.
